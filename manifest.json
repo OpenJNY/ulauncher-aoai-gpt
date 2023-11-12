@@ -1,0 +1,81 @@
+{
+    "required_api_version": "2",
+    "name": "AOAI GPT",
+    "description": "AI chat with Azure OpenAI's LLM",
+    "developer_name": "Junya Yamaguchi",
+    "icon": "images/icon.png",
+    "options": {
+        "query_debounce": 0.1
+    },
+    "preferences": [
+        {
+            "id": "aoaigpt_kw",
+            "type": "keyword",
+            "name": "gpt",
+            "default_value": "gpt"
+        },
+        {
+            "id": "api_base",
+            "type": "input",
+            "name": "API Endpoint",
+            "description": "The endpoint of the API (e.g. https://foo.openai.azure.com)",
+            "default_value": ""
+        },
+        {
+            "id": "api_key",
+            "type": "input",
+            "name": "API Key",
+            "description": "The API key of the Azure OpenAI service",
+            "default_value": ""
+        },
+        {
+            "id": "api_version",
+            "type": "input",
+            "name": "API Version",
+            "description": "The API version of the Azure OpenAI service (e.g. 2023-05-15)",
+            "default_value": "2023-05-15"
+        },
+        {
+            "id": "deployment_id",
+            "type": "input",
+            "name": "Model Name",
+            "description": "The deployment name of the model (e.g. gpt-35-turbo)",
+            "default_value": "gpt-35-turbo"
+        },
+        {
+            "id": "line_wrap",
+            "type": "input",
+            "name": "Line Length",
+            "description": "The maximum number of characters per line to show in  Ulauncher",
+            "default_value": "64"
+        },
+        {
+            "id": "temperature",
+            "type": "input",
+            "name": "Temperature",
+            "description": "The randomness of the genereated output (consistent:0.0 -- random:2.0)",
+            "default_value": "1.0"
+        },
+        {
+            "id": "max_tokens",
+            "type": "input",
+            "name": "Max Tokens",
+            "description": "The maximum number of tokens allowed for the generated answer",
+            "default_value": "1024"
+        },
+        {
+            "id": "frequency_penalty",
+            "type": "input",
+            "name": "Frequency Penalty",
+            "description": "The likelihood to avoid repeating the same word (verbose:-2.0 -- lean:2.0)",
+            "default_value": "1.0"
+        },
+        {
+            "id": "presence_penalty",
+            "type": "input",
+            "name": "Presence Penalty",
+            "description": "The likelihood to avoid repeating the same topic (verbose:-2.0 -- lean:2.0)",
+            "default_value": "1.0"
+        }
+    ]
+}

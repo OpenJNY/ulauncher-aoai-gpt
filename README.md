@@ -1,0 +1,1 @@
+# ulauncher-aoai-gpt
