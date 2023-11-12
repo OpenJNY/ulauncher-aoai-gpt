@@ -50,6 +50,13 @@
             "default_value": "64"
         },
         {
+            "id": "system_prompt",
+            "type": "input",
+            "name": "System Prompt",
+            "description": "The prompt to start the conversation",
+            "default_value": "You are a helpful assistant."
+        },
+        {
             "id": "temperature",
             "type": "input",
             "name": "Temperature",
