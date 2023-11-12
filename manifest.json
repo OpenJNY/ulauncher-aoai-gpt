@@ -1,6 +1,6 @@
 {
     "required_api_version": "^2.0.0",
-    "name": "AOAI GPT",
+    "name": "Azure OpenAI GPT",
     "description": "AI chat with Azure OpenAI's LLM",
     "developer_name": "Junya Yamaguchi",
     "icon": "images/icon.png",
@@ -11,7 +11,7 @@
         {
             "id": "aoaigpt_kw",
             "type": "keyword",
-            "name": "gpt",
+            "name": "AOAI GPT",
             "default_value": "gpt"
         },
         {
